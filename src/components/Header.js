@@ -1,15 +1,15 @@
-export default class Header {
+import Component from "../core/Component.js";
+
+export default class Header extends Component {
   setup() {
   }
-
   template() {
     return `
-      <header>
+      <div>
         헤더
-      </header>
+      </div>
     `
   }
-
   setEvent() {
   }
 }

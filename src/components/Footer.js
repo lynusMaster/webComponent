@@ -1,15 +1,15 @@
-export default class footer {
+import Component from "../core/Component.js";
+
+export default class Footer extends Component {
   setup() {
   }
-
   template() {
     return `
-      <footer>
+      <div>
         풋터
-      </footer>
+      </div>
     `
   }
-
   setEvent() {
   }
 }
